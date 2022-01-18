@@ -1,0 +1,15 @@
+#columns {
+    margin-left: 40px;
+}
+
+#col-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid grey;
+}
+
+#col-item label {
+    padding-right: 35vh;
+}

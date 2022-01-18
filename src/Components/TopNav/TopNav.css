@@ -1,0 +1,53 @@
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    background-color: #ffffff;
+    border-top-left-radius: 10px ;
+    border-top-right-radius:10px ;
+    padding: 10px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(209, 209, 209);;
+}
+
+#top-nav-left {
+    display: flex;
+    align-items: center;
+}
+
+#date {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+#date:first-child div{
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+#date div {
+    margin-right: 20px;
+}
+
+#calender-icon {
+    color: grey;
+}
+
+#compare-btn {
+    color: rgb(15, 199, 199);
+}
+
+/*top-right  */
+#top-nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#top-nav-right div {
+    margin-right: 10px;
+}

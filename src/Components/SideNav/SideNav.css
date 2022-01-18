@@ -1,0 +1,31 @@
+#input{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#input input{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}   
+
+#side-nav{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
