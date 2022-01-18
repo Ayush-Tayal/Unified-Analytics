@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Unified-Analytics/static/css/main.d7c417b5.css",
+    "main.js": "/Unified-Analytics/static/js/main.39d90811.js",
+    "static/js/787.3d6778c9.chunk.js": "/Unified-Analytics/static/js/787.3d6778c9.chunk.js",
+    "static/media/graph.jpg": "/Unified-Analytics/static/media/graph.3e1334e02c08dded4252.jpg",
+    "index.html": "/Unified-Analytics/index.html",
+    "main.d7c417b5.css.map": "/Unified-Analytics/static/css/main.d7c417b5.css.map",
+    "main.39d90811.js.map": "/Unified-Analytics/static/js/main.39d90811.js.map",
+    "787.3d6778c9.chunk.js.map": "/Unified-Analytics/static/js/787.3d6778c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7c417b5.css",
+    "static/js/main.39d90811.js"
+  ]
+}
