@@ -4,17 +4,10 @@ import SearchIcon from '@mui/icons-material/Search';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import Checkbox from "@material-ui/core/Checkbox";
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormGroup from '@mui/material/FormGroup';
 import Columns from '../Columns/Columns';
-import { MenuItem } from '@mui/material';
 
 const SideNav = () => {
     const [browserFilter, setBrowserFilter] = useState([]);
-    // const [countryFilter, setCountryFilter] = useState([]); 
-    // console.log("Browser Filter", browserFilter);
-    // console.log("Country Filter", countryFilter);
 
     const onChange = (event) => {
         let ref = [...browserFilter]
@@ -85,31 +78,3 @@ const SideNav = () => {
 }
 
 export default SideNav
-
-{/* <Select
-    labelId="demo-simple-select-label"
-    id="demo-simple-select"
-    label="Browser"
-    onChange={(e) => console.log("select", e)}
-    >
-    <FormGroup>
-        <FormControlLabel control={<Checkbox />} label="Chrome" />
-    </FormGroup>
-
-    <FormGroup>
-        <FormControlLabel control={<Checkbox />} label="Firefox" />
-    </FormGroup>
-
-    <FormGroup>
-        <FormControlLabel control={<Checkbox />} label="Safari" />
-    </FormGroup>
-
-    <FormGroup>
-        <FormControlLabel control={<Checkbox />} label="Edge" />
-    </FormGroup>
-
-    <FormGroup>
-        <FormControlLabel control={<Checkbox  />} label="Undefined" />
-    </FormGroup>
-
-</Select>  */}

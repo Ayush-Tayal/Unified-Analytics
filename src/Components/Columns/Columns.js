@@ -5,7 +5,7 @@ import './Columns.css'
 
 const Columns = (props) => {
     let browser = props.browserFilter ;
-    console.log("8",browser)
+    // console.log("8",browser);
 
     return (
         <div id='columns'>
