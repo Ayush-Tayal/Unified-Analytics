@@ -2,7 +2,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 10px 50px ;
+    padding: 10px 30px ;
     border-left: 150px solid rgba(45, 55, 87, 0.945);
     border-right: 150px solid rgba(45, 55, 87, 0.945);
     background-color: rgb(243, 243, 243);
